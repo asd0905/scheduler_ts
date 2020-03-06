@@ -27,3 +27,19 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## add scheduler
+```shell script
+npm install --save scheduler
+```
+import JqxSchedule
+```
+import JqxScheduler from 'jqwidgets-scripts/jqwidgets-vue/vue_jqxscheduler.vue'
+```
+
+## add node-sass, sass-loader
+```shell script
+npm install --save --only=dev node-sass
+npm install --save --only=dev sass-loader
+```
